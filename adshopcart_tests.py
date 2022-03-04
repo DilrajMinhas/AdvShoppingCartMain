@@ -8,11 +8,13 @@ class AdvantageshoppingcartAppPositiveTestCases(unittest.TestCase):
     def test_main_advantage_shop_cart():
         methods.setUp()
         methods.create_new_user()
-        methods.Check_full_name()
-        methods.login()
-        methods.sign_out()
         methods.delete_account_login()
+        methods.sign_out()
+        methods.login()
+        methods.home_page()
+        methods.Contact_Form()
         methods.tearDown()
+
 
 
 
